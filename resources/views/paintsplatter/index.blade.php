@@ -40,37 +40,36 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='template-kit-export-css' href='wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min365c.css?ver=1.0.21' media='all' />
-<link rel='stylesheet' id='hello-elementor-css' href='wp-content/themes/hello-elementor/style.min41fe.css?ver=3.0.1' media='all' />
-<link rel='stylesheet' id='hello-elementor-theme-style-css' href='wp-content/themes/hello-elementor/theme.min41fe.css?ver=3.0.1' media='all' />
-<link rel='stylesheet' id='hello-elementor-header-footer-css' href='wp-content/themes/hello-elementor/header-footer.min41fe.css?ver=3.0.1' media='all' />
-<link rel='stylesheet' id='elementor-icons-css' href='wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min50c3.css?ver=5.27.0' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='wp-content/plugins/elementor/assets/css/frontend-lite.min34a7.css?ver=3.19.2' media='all' />
-<link rel='stylesheet' id='swiper-css' href='wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' media='all' />
-<link rel='stylesheet' id='elementor-post-5-css' href='wp-content/uploads/elementor/css/post-54859.css?ver=1707564951' media='all' />
-<link rel='stylesheet' id='elementor-pro-css' href='wp-content/plugins/elementor-pro/assets/css/frontend-lite.min34a7.css?ver=3.19.2' media='all' />
-<link rel='stylesheet' id='elementor-post-200-css' href='wp-content/uploads/elementor/css/post-200094c.css?ver=1707566773' media='all' />
-<link rel='stylesheet' id='elementor-post-34-css' href='wp-content/uploads/elementor/css/post-344077.css?ver=1707570280' media='all' />
-<link rel='stylesheet' id='elementor-post-37-css' href='wp-content/uploads/elementor/css/post-374077.css?ver=1707570280' media='all' />
+
+<!-- Stylesheets -->
+<link rel='stylesheet' id='template-kit-export-css' href='{{ asset("wp-content/plugins/template-kit-export/public/assets/css/template-kit-export-public.min365c.css") }}' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='{{ asset("wp-content/themes/hello-elementor/style.min41fe.css") }}' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='{{ asset("wp-content/themes/hello-elementor/theme.min41fe.css") }}' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='{{ asset("wp-content/themes/hello-elementor/header-footer.min41fe.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='{{ asset("wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min50c3.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='{{ asset("wp-content/plugins/elementor/assets/css/frontend-lite.min34a7.css") }}' media='all' />
+<link rel='stylesheet' id='swiper-css' href='{{ asset("wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-post-5-css' href='{{ asset("wp-content/uploads/elementor/css/post-54859.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='{{ asset("wp-content/plugins/elementor-pro/assets/css/frontend-lite.min34a7.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-post-200-css' href='{{ asset("wp-content/uploads/elementor/css/post-200094c.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-post-34-css' href='{{ asset("wp-content/uploads/elementor/css/post-344077.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-post-37-css' href='{{ asset("wp-content/uploads/elementor/css/post-374077.css") }}' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Marcellus%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CInter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.7' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css?ver=5.15.3' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-regular-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min52d5.css?ver=5.15.3' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3' media='all' />
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-<script src="wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script src="wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min365c.js?ver=1.0.21" id="template-kit-export-js"></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="wp-json/wp/v2/pages/200.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
-<meta name="generator" content="WordPress 6.7" />
-<link rel="canonical" href="index.html" />
-<link rel='shortlink' href='index.html' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="wp-json/oembed/1.0/embed8493.json?url=https%3A%2F%2Fwww.paintsplatter.oxaart.com%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="wp-json/oembed/1.0/embedd329?url=https%3A%2F%2Fwww.paintsplatter.oxaart.com%2F&amp;format=xml" />
-<meta name="generator" content="Elementor 3.19.2; features: e_optimized_assets_loading, e_optimized_css_loading, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-swap">
-<link rel="icon" href="wp-content/uploads/Logo-Icon-1-150x150.png" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/Logo-Icon-1.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/Logo-Icon-1.png" />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='{{ asset("wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='{{ asset("wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min52d5.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-regular-css' href='{{ asset("wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min52d5.css") }}' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-brands-css' href='{{ asset("wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css") }}' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<script src="{{ asset('wp-includes/js/jquery/jquery.minf43b.js') }}" id="jquery-core-js"></script>
+<script src="{{ asset('wp-includes/js/jquery/jquery-migrate.min5589.js') }}" id="jquery-migrate-js"></script>
+<script src="{{ asset('wp-content/plugins/template-kit-export/public/assets/js/template-kit-export-public.min365c.js') }}" id="template-kit-export-js"></script>
+
+<!-- Icons and Favicons -->
+<link rel="icon" href="{{ asset('wp-content/uploads/Logo-Icon-1-150x150.png') }}" sizes="32x32" />
+<link rel="icon" href="{{ asset('wp-content/uploads/Logo-Icon-1.png') }}" sizes="192x192" />
+<link rel="apple-touch-icon" href="{{ asset('wp-content/uploads/Logo-Icon-1.png') }}" />
 <meta name="msapplication-TileImage" content="https://www.paintsplatter.oxaart.com/wp-content/uploads/Logo-Icon-1.png" />
+
 </head>
 <body class="home page-template page-template-elementor_header_footer page page-id-200 wp-custom-logo elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-200">
 
