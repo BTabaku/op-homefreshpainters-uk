@@ -55,7 +55,7 @@
                             n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                                 "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                                 "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                );
+                            );
                     case "emoji":
                         return !n(e, "\ud83d\udc26\u200d\u2b1b", "\ud83d\udc26\u200b\u2b1b")
                 }
@@ -580,7 +580,8 @@
                                 vertical-align: middle;
                                 display: inline-block
                             }
-                        </style> <a href="index.html">
+                        </style> <a href="{{ route('index') }}">
+
                             <img fetchpriority="high" width="403" height="128"
                                 src="wp-content/uploads/Paint-Splatter-Logo-1.png"
                                 class="attachment-full size-full wp-image-1395" alt=""
@@ -598,13 +599,15 @@
                         <nav
                             class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
                             <ul id="menu-1-9c4016e" class="elementor-nav-menu">
-                                
-								<li
+
+                                <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-200 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-205">
-                                    
-									<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-200 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-205">
-										<a href="{{ route('index') }}" aria-current="page" class="elementor-item elementor-item-active">Home</a>
-									</li>
+
+                                <li
+                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-200 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-205">
+                                    <a href="{{ route('index') }}" aria-current="page"
+                                        class="elementor-item elementor-item-active">Home</a>
+                                </li>
 
                                 </li>
 
@@ -615,19 +618,23 @@
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217">
                                             <a href="template-kit/services/index.html" class="elementor-sub-item">All
-                                                Services</a></li>
+                                                Services</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-207">
                                             <a href="template-kit/single-service/index.html"
-                                                class="elementor-sub-item">Single Service</a></li>
+                                                class="elementor-sub-item">Single Service</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-213">
                                             <a href="template-kit/pricing/index.html"
-                                                class="elementor-sub-item">Pricing</a></li>
+                                                class="elementor-sub-item">Pricing</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2213">
                                             <a href="template-kit/service-warranty/index.html"
-                                                class="elementor-sub-item">Service Warranty</a></li>
+                                                class="elementor-sub-item">Service Warranty</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li
@@ -637,11 +644,13 @@
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2188">
                                             <a href="template-kit/before-after/index.html"
-                                                class="elementor-sub-item">Before &#038; After</a></li>
+                                                class="elementor-sub-item">Before &#038; After</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2189">
                                             <a href="template-kit/portfolio/index.html"
-                                                class="elementor-sub-item">Portfolio</a></li>
+                                                class="elementor-sub-item">Portfolio</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2190"><a
@@ -654,19 +663,23 @@
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
                                             <a href="template-kit/about/index.html" class="elementor-sub-item">About
-                                                Us</a></li>
+                                                Us</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-211">
                                             <a href="template-kit/our-team/index.html" class="elementor-sub-item">Our
-                                                Team</a></li>
+                                                Team</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2397">
                                             <a href="template-kit/our-clients/index.html"
-                                                class="elementor-sub-item">Our Clients</a></li>
+                                                class="elementor-sub-item">Our Clients</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212">
                                             <a href="template-kit/testimonials/index.html"
-                                                class="elementor-sub-item">Testimonials</a></li>
+                                                class="elementor-sub-item">Testimonials</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215">
                                             <a href="template-kit/faqs/index.html" class="elementor-sub-item">FAQs</a>
@@ -697,15 +710,18 @@
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-200 current_page_item menu-item-2509">
                                             <a href="index.html" aria-current="page"
                                                 class="elementor-sub-item elementor-item-active" tabindex="-1">Home
-                                                1</a></li>
+                                                1</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2508">
                                             <a href="template-kit/home-2/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Home 2</a></li>
+                                                tabindex="-1">Home 2</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3361">
                                             <a href="template-kit/home-3/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Home 3</a></li>
+                                                tabindex="-1">Home 3</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li
@@ -716,19 +732,23 @@
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217">
                                             <a href="template-kit/services/index.html" class="elementor-sub-item"
-                                                tabindex="-1">All Services</a></li>
+                                                tabindex="-1">All Services</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-207">
                                             <a href="template-kit/single-service/index.html"
-                                                class="elementor-sub-item" tabindex="-1">Single Service</a></li>
+                                                class="elementor-sub-item" tabindex="-1">Single Service</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-213">
                                             <a href="template-kit/pricing/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Pricing</a></li>
+                                                tabindex="-1">Pricing</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2213">
                                             <a href="template-kit/service-warranty/index.html"
-                                                class="elementor-sub-item" tabindex="-1">Service Warranty</a></li>
+                                                class="elementor-sub-item" tabindex="-1">Service Warranty</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li
@@ -739,11 +759,13 @@
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2188">
                                             <a href="template-kit/before-after/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Before &#038; After</a></li>
+                                                tabindex="-1">Before &#038; After</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2189">
                                             <a href="template-kit/portfolio/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Portfolio</a></li>
+                                                tabindex="-1">Portfolio</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2190"><a
@@ -756,23 +778,28 @@
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
                                             <a href="template-kit/about/index.html" class="elementor-sub-item"
-                                                tabindex="-1">About Us</a></li>
+                                                tabindex="-1">About Us</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-211">
                                             <a href="template-kit/our-team/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Our Team</a></li>
+                                                tabindex="-1">Our Team</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2397">
                                             <a href="template-kit/our-clients/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Our Clients</a></li>
+                                                tabindex="-1">Our Clients</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212">
                                             <a href="template-kit/testimonials/index.html" class="elementor-sub-item"
-                                                tabindex="-1">Testimonials</a></li>
+                                                tabindex="-1">Testimonials</a>
+                                        </li>
                                         <li
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215">
                                             <a href="template-kit/faqs/index.html" class="elementor-sub-item"
-                                                tabindex="-1">FAQs</a></li>
+                                                tabindex="-1">FAQs</a>
+                                        </li>
                                     </ul>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204"><a
@@ -786,22 +813,25 @@
                 </div>
 
 
-				<!--                    phone number-->
+                <!--                    phone number-->
 
-				<div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="c587790" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
-					<div class="elementor-widget-container">
-						<div class="elementor-button-wrapper">
-							<a href="tel:+447404935919" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-								<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-icon elementor-align-icon-left">
-										<i aria-hidden="true" class="fas fa-phone"></i>
-									</span>
-									<span class="elementor-button-text">+44 7404 935919</span>
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
+                <div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button"
+                    data-id="c587790" data-element_type="widget"
+                    data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                            <a href="tel:+447404935919"
+                                class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-icon elementor-align-icon-left">
+                                        <i aria-hidden="true" class="fas fa-phone"></i>
+                                    </span>
+                                    <span class="elementor-button-text">+44 7404 935919</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
@@ -1986,20 +2016,23 @@
                     </div>
                 </div>
 
-				<div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="c587790" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
-					<div class="elementor-widget-container">
-						<div class="elementor-button-wrapper">
-							<a href="tel:+447404935919" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-								<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-icon elementor-align-icon-left">
-										<i aria-hidden="true" class="fas fa-phone"></i>
-									</span>
-									<span class="elementor-button-text">+44 7404 935919</span>
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
+                <div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button"
+                    data-id="c587790" data-element_type="widget"
+                    data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                            <a href="tel:+447404935919"
+                                class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-icon elementor-align-icon-left">
+                                        <i aria-hidden="true" class="fas fa-phone"></i>
+                                    </span>
+                                    <span class="elementor-button-text">+44 7404 935919</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -2582,20 +2615,23 @@
                     </div>
                 </div>
 
-				<div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="c587790" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
-					<div class="elementor-widget-container">
-						<div class="elementor-button-wrapper">
-							<a href="tel:+447404935919" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-								<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-icon elementor-align-icon-left">
-										<i aria-hidden="true" class="fas fa-phone"></i>
-									</span>
-									<span class="elementor-button-text">+44 7404 935919</span>
-								</span>
-							</a>
-						</div>
-					</div>
-				</div>
+                <div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button"
+                    data-id="c587790" data-element_type="widget"
+                    data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                            <a href="tel:+447404935919"
+                                class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                <span class="elementor-button-content-wrapper">
+                                    <span class="elementor-button-icon elementor-align-icon-left">
+                                        <i aria-hidden="true" class="fas fa-phone"></i>
+                                    </span>
+                                    <span class="elementor-button-text">+44 7404 935919</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -2789,21 +2825,26 @@
                                             </div>
                                         </div>
                                     </div>
-									
-									<div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="c587790" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
-										<div class="elementor-widget-container">
-											<div class="elementor-button-wrapper">
-												<a href="tel:+447404935919" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-													<span class="elementor-button-content-wrapper">
-														<span class="elementor-button-icon elementor-align-icon-left">
-															<i aria-hidden="true" class="fas fa-phone"></i>
-														</span>
-														<span class="elementor-button-text">+44 7404 935919</span>
-													</span>
-												</a>
-											</div>
-										</div>
-									</div>
+
+                                    <div class="elementor-element elementor-element-c587790 elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button"
+                                        data-id="c587790" data-element_type="widget"
+                                        data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}"
+                                        data-widget_type="button.default">
+                                        <div class="elementor-widget-container">
+                                            <div class="elementor-button-wrapper">
+                                                <a href="tel:+447404935919"
+                                                    class="elementor-button-link elementor-button elementor-size-sm"
+                                                    role="button">
+                                                    <span class="elementor-button-content-wrapper">
+                                                        <span class="elementor-button-icon elementor-align-icon-left">
+                                                            <i aria-hidden="true" class="fas fa-phone"></i>
+                                                        </span>
+                                                        <span class="elementor-button-text">+44 7404 935919</span>
+                                                    </span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                     <div class="elementor-element elementor-element-80b5742 elementor-icon-list--layout-inline elementor-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
                                         data-id="80b5742" data-element_type="widget"
