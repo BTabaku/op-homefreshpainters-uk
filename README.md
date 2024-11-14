@@ -21,37 +21,65 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Setting up project
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```bash
+# Clear all Laravel caches
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+# Clear compiled files
+php artisan clear-compiled
+php artisan optimize:clear
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+# Remove and rebuild vendor
+composer dump-autoload
+composer install --optimize-autoloader --no-dev
 
-## Laravel Sponsors
+# Clean npm/node modules and rebuild
+rm -rf node_modules
+rm package-lock.json
+npm cache clean --force
+npm install
+npm run build
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+# Reset configurations
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
 
-### Premium Partners
+# Verify clean state
+php artisan about
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+```
 
-## Contributing
+## Accessing rights to files
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```bash
+# Navigate to Laravel project root
+cd /home/BTABAKU/dev/op-homefreshpainters-uk
+
+# Change permissions for all files including hidden
+sudo find . -type f -exec chmod 777 {} \;
+sudo find . -type d -exec chmod 777 {} \;
+
+# Specific Laravel directories
+sudo chmod -R 777 storage
+sudo chmod -R 777 bootstrap/cache
+sudo chmod -R 777 public
+sudo chmod -R 777 vendor
+sudo chmod -R 777 node_modules
+
+# Hidden files
+sudo chmod 777 .env*
+sudo chmod 777 .gitignore
+sudo chmod 777 .git
+
+# Verify permissions
+ls -la
+```
 
 ## Code of Conduct
 
