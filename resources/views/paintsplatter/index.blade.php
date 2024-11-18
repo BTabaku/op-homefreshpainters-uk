@@ -585,7 +585,7 @@
                             <img fetchpriority="high" width="403" height="128"
                                 src="wp-content/uploads/Paint-Splatter-Logo-1.png"
                                 class="attachment-full size-full wp-image-1395" alt=""
-                                srcset="https://www.paintsplatter.oxaart.com/wp-content/uploads/Paint-Splatter-Logo-1.png 403w, https://www.paintsplatter.oxaart.com/wp-content/uploads/Paint-Splatter-Logo-1-300x95.png 300w"
+                                href="{{ asset('wp-content/uploads/Logo-Icon-1-150x150.png') }}" 403w, https://www.paintsplatter.oxaart.com/wp-content/uploads/Paint-Splatter-Logo-1-300x95.png 300w"
                                 sizes="(max-width: 403px) 100vw, 403px" /> </a>
                     </div>
                 </div>
@@ -2859,7 +2859,9 @@
                                                         <span class="elementor-icon-list-icon">
                                                             <i aria-hidden="true" class="fas fa-envelope"></i>
                                                         </span>
-                                                        <span class="elementor-icon-list-text">info@example.com</span>
+                                                        <span class="elementor-icon-list-text">
+                                                            <a href="mailto:homefreshpainters@gmail.com" style="color: inherit; text-decoration: none;">homefreshpainters@gmail.com</a>
+                                                        </span>
                                                     </a>
                                                 </li>
                                                 <li class="elementor-icon-list-item elementor-inline-item">
@@ -2977,14 +2979,16 @@
                         data-id="7c89916" data-element_type="widget" data-widget_type="icon-list.default">
                         <div class="elementor-widget-container">
                             <ul class="elementor-icon-list-items">
-                                <li class="elementor-icon-list-item">
-                                    <a href="#">
 
+                                <li class="elementor-icon-list-item">
+                                    <a href="tel:+447404935919">
                                         <span class="elementor-icon-list-icon">
-                                            <i aria-hidden="true" class="fas fa-phone"></i> </span>
-                                        <span class="elementor-icon-list-text">(123) 456 7890</span>
+                                            <i aria-hidden="true" class="fas fa-phone"></i>
+                                        </span>
+                                        <span class="elementor-icon-list-text">+44 7404 935919</span>
                                     </a>
                                 </li>
+
                                 <li class="elementor-icon-list-item">
                                     <a href="#">
 
@@ -2996,9 +3000,12 @@
                                 <li class="elementor-icon-list-item">
                                     <a href="#">
 
-                                        <span class="elementor-icon-list-icon">
-                                            <i aria-hidden="true" class="fas fa-envelope"></i> </span>
-                                        <span class="elementor-icon-list-text">info@example.com</span>
+                                                           <span class="elementor-icon-list-icon">
+                                            <i aria-hidden="true" class="fas fa-envelope"></i>
+                                        </span>
+                                        <span class="elementor-icon-list-text">
+                                            <a href="mailto:homefreshpainters@gmail.com" style="color: inherit; text-decoration: none;">homefreshpainters@gmail.com</a>
+                                        </span>
                                     </a>
                                 </li>
                             </ul>
