@@ -60,8 +60,7 @@
     <script src="{{ asset('wp-includes/js/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('wp-includes/js/jquery/jquery-migrate.min.js') }}"></script>
     <script src="{{ asset('wp-content/plugins/elementor/assets/lib/swiper/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('wp-content/plugins/elementor/assets/js/frontend.min.js') }}"></script>
-    <script src="{{ asset('wp-content/plugins/elementor-pro/assets/js/frontend.min.js') }}"></script>
+    <script src="{{ asset('js/elementor-slider.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     
     @stack('scripts')
