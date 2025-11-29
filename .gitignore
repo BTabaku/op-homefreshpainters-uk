@@ -1,6 +1,7 @@
 /vendor
 /node_modules
-# /.env
+/.env
+/.env.*
 /.phpunit.result.cache
 /storage/*.key
 /storage/debugbar
@@ -14,4 +15,19 @@
 /.idea
 .DS_Store
 Thumbs.db
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.prod.yml
+docker-compose.staging.yml
+
+# Deployment logs
+deploy.log
+*.log
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
 
