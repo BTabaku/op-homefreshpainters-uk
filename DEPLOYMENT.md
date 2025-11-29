@@ -153,8 +153,8 @@ docker compose config --format json | jq '.services.app.environment'
 
 This project uses different ports to avoid conflicts:
 - **Application**: Port 8096 (instead of 8095)
-- **MySQL**: Port 3308 (instead of 3307)
-- **Redis**: Standard port 6379
+- **MySQL**: Port 3310 (instead of 3307)
+- **Redis**: Port 6380 (instead of 6379)
 
 ## Migration from Old System
 
