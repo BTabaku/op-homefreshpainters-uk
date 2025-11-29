@@ -1,0 +1,572 @@
+/* Elementor-style CSS for HomeFreshPainters */
+
+/* Base Elementor Styles */
+.elementor {
+    width: 100%;
+}
+
+.elementor-section {
+    position: relative;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.elementor-column {
+    position: relative;
+    min-height: 1px;
+    display: flex;
+}
+
+.elementor-widget-wrap {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+
+.elementor-widget {
+    position: relative;
+}
+
+.elementor-widget-wrap > .elementor-element {
+    width: 100%;
+}
+
+/* Column Widths */
+.elementor-col-100 {
+    width: 100%;
+}
+
+.elementor-col-50 {
+    width: 50%;
+}
+
+.elementor-col-33 {
+    width: 33.333%;
+}
+
+.elementor-col-25 {
+    width: 25%;
+}
+
+/* Section Types */
+.elementor-section-full_width > .elementor-container {
+    max-width: 100%;
+}
+
+.elementor-section-height-default > .elementor-container {
+    min-height: auto;
+}
+
+.elementor-section-height-min-height > .elementor-container {
+    min-height: 300px;
+}
+
+/* Spacing */
+.elementor-column-gap-default > .elementor-column > .elementor-element-populated {
+    padding: 10px;
+}
+
+.elementor-column-gap-no > .elementor-column > .elementor-element-populated {
+    padding: 0;
+}
+
+.elementor-column-gap-wide > .elementor-column > .elementor-element-populated {
+    padding: 20px;
+}
+
+.elementor-column-gap-wider > .elementor-column > .elementor-element-populated {
+    padding: 30px;
+}
+
+/* Widget Styles */
+.elementor-widget-heading .elementor-heading-title {
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.elementor-size-default {
+    font-size: 20px;
+}
+
+.elementor-size-xs {
+    font-size: 13px;
+}
+
+.elementor-size-sm {
+    font-size: 16px;
+}
+
+.elementor-size-md {
+    font-size: 18px;
+}
+
+.elementor-size-lg {
+    font-size: 21px;
+}
+
+.elementor-size-xl {
+    font-size: 25px;
+}
+
+.elementor-size-xxl {
+    font-size: 35px;
+}
+
+/* Image Box Widget */
+.elementor-image-box-wrapper {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.elementor-image-box-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+
+.elementor-image-box-img img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.elementor-image-box-content {
+    vertical-align: middle;
+}
+
+.elementor-image-box-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.elementor-image-box-description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Button Widget */
+.elementor-button {
+    display: inline-block;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1;
+    border: none;
+    border-radius: 3px;
+    background: #6ec1e4;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 12px 24px;
+}
+
+.elementor-button:hover {
+    background: #5a9fd4;
+    color: #fff;
+}
+
+.elementor-button-wrapper {
+    display: inline-block;
+}
+
+.elementor-button.elementor-size-sm {
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+.elementor-button.elementor-size-md {
+    font-size: 16px;
+    padding: 12px 24px;
+}
+
+.elementor-button.elementor-size-lg {
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.elementor-button.elementor-size-xl {
+    font-size: 20px;
+    padding: 18px 36px;
+}
+
+/* Icon List Widget */
+.elementor-icon-list-items {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.elementor-icon-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.elementor-icon-list-icon {
+    flex-shrink: 0;
+    margin-right: 10px;
+    color: #6ec1e4;
+}
+
+.elementor-icon-list-text {
+    flex-grow: 1;
+}
+
+/* Text Editor Widget */
+.elementor-text-editor {
+    line-height: 1.6;
+}
+
+.elementor-text-editor p {
+    margin-bottom: 15px;
+}
+
+.elementor-text-editor p:last-child {
+    margin-bottom: 0;
+}
+
+/* Image Widget */
+.elementor-widget-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Social Icons Widget */
+.elementor-social-icons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.elementor-social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.elementor-social-icon-facebook {
+    background: #3b5998;
+}
+
+.elementor-social-icon-twitter {
+    background: #1da1f2;
+}
+
+.elementor-social-icon-instagram {
+    background: #c13584;
+}
+
+.elementor-social-icon-linkedin {
+    background: #0077b5;
+}
+
+.elementor-social-icon:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
+}
+
+/* Navigation Menu Widget */
+.elementor-nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.elementor-nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.elementor-nav-menu li {
+    position: relative;
+}
+
+.elementor-nav-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.elementor-nav-menu a:hover {
+    color: #6ec1e4;
+}
+
+.elementor-nav-menu--layout-horizontal > ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.elementor-nav-menu--layout-vertical > ul {
+    flex-direction: column;
+}
+
+/* Grid System */
+.elementor-grid {
+    display: grid;
+    grid-gap: 30px;
+}
+
+.elementor-grid-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.elementor-grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.elementor-grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.elementor-grid-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.elementor-grid-item {
+    display: flex;
+}
+
+/* Background Options */
+.elementor-section[data-settings*="classic"] {
+    background-color: #f8f9fa;
+}
+
+.elementor-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+/* Animations */
+.elementor-animation-fade {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fade;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.elementor-animation-fadeUp {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeUp;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.elementor-animation-fadeDown {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeDown;
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.elementor-animation-fadeLeft {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeLeft;
+}
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.elementor-animation-fadeRight {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeRight;
+}
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.elementor-animation-slideUp {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: slideUp;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.elementor-animation-slideDown {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: slideDown;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.elementor-animation-slideLeft {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: slideLeft;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.elementor-animation-slideRight {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: slideRight;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .elementor-container {
+        max-width: 960px;
+    }
+    
+    .elementor-grid-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .elementor-container {
+        max-width: 728px;
+    }
+    
+    .elementor-grid-3,
+    .elementor-grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .elementor-col-50,
+    .elementor-col-33,
+    .elementor-col-25 {
+        width: 100%;
+    }
+    
+    .elementor-nav-menu--layout-horizontal > ul {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .elementor-container {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+    
+    .elementor-grid-2,
+    .elementor-grid-3,
+    .elementor-grid-4 {
+        grid-template-columns: 1fr;
+    }
+    
+    .elementor-slide-heading {
+        font-size: 24px !important;
+    }
+    
+    .elementor-slide-description {
+        font-size: 14px !important;
+    }
+}
