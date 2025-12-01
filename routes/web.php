@@ -29,6 +29,16 @@ use App\Http\Controllers\OurClientsController;
 // Main Home Page
 Route::get('/', [HomeController::class, 'index'])->name('home');
 
+// Paint Splatter Theme Home Pages
+Route::get('/home-2', [HomeController::class, 'home2'])->name('home-2');
+Route::get('/home-3', [HomeController::class, 'home3'])->name('home-3');
+
+// Blog Route for Paint Splatter
+Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
+
+// Single Service Route
+Route::get('/single-service', [ServicesController::class, 'single'])->name('single-service');
+
 // Services Routes
 Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/services/{service}', [ServicesController::class, 'show'])->name('services.show');
@@ -44,7 +54,7 @@ Route::post('/contact', [ContactController::class, 'store'])->name('contact.stor
 Route::get('/portfolio', [PortfolioController::class, 'index'])->name('portfolio');
 
 // Team Routes
-Route::get('/our-team', [TeamController::class, 'index'])->name('team');
+Route::get('/our-team', [TeamController::class, 'index'])->name('our-team');
 
 // Testimonials Routes
 Route::get('/testimonials', [TestimonialsController::class, 'index'])->name('testimonials');

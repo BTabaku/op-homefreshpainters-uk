@@ -1,42 +1,117 @@
-<header class="elementor-section elementor-top-section elementor-element elementor-element-header elementor-section-full_width elementor-section-height-default elementor-section-height-default">
-    <div class="elementor-container elementor-column-gap-no">
-        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-header-column">
-            <div class="elementor-widget-wrap elementor-element-populated">
-                <div class="elementor-element elementor-element-logo elementor-widget elementor-widget-image">
-                    <div class="elementor-widget-container">
-                        <a href="{{ route('home') }}" class="elementor-clickable">
-                            <img src="{{ asset('assets/images/logo.png') }}" alt="HomeFreshPainters" class="elementor-animation-fade">
-                        </a>
-                    </div>
+<div data-elementor-type="header" data-elementor-id="34" class="elementor elementor-34 elementor-location-header" data-elementor-post-type="elementor_library">
+    <div class="elementor-element elementor-element-a5cbf36 e-flex e-con-boxed e-con e-parent" data-id="a5cbf36" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-5ec27c9 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="5ec27c9" data-element_type="widget" data-widget_type="theme-site-logo.default">
+                <div class="elementor-widget-container">
+                    <a href="{{ route('home') }}">
+                        <img width="403" height="128" src="{{ asset('assets/uploads/Paint-Splatter-Logo-1.png') }}" class="attachment-full size-full wp-image-1395" alt="Paint Splatter" />
+                    </a>
                 </div>
-                
-                <div class="elementor-element elementor-element-nav elementor-widget elementor-widget-nav-menu">
-                    <div class="elementor-widget-container">
-                        <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-text e--animation-fade">
-                            <ul id="menu-1" class="elementor-nav-menu">
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-200 current_page_item">
-                                    <a href="{{ route('home') }}" aria-current="page">Home</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="{{ route('services') }}">Services</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="{{ route('portfolio') }}">Portfolio</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="{{ route('about') }}">About</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page">
-                                    <a href="{{ route('contact') }}">Contact</a>
-                                </li>
-                            </ul>
-                        </nav>
+            </div>
+            <div class="elementor-element elementor-element-9c4016e elementor-nav-menu__align-center elementor-nav-menu--stretch elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-nav-menu--dropdown-tablet elementor-nav-menu__text-align-aside elementor-nav-menu--toggle elementor-nav-menu--burger elementor-widget elementor-widget-nav-menu" data-id="9c4016e" data-element_type="widget" data-settings="{&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-chevron-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;full_width&quot;:&quot;stretch&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+                <div class="elementor-widget-container">
+                    <nav class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+                        <ul id="menu-1-9c4016e" class="elementor-nav-menu">
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-205">
+                                <a href="{{ route('home') }}" class="elementor-item">Home</a>
+                                <ul class="sub-menu elementor-nav-menu--dropdown">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2509">
+                                        <a href="{{ route('home') }}" class="elementor-sub-item">Home 1</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-2508">
+                                        <a href="{{ route('home-2') }}" class="elementor-sub-item elementor-item-active">Home 2</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3361">
+                                        <a href="{{ route('home-3') }}" class="elementor-sub-item">Home 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-206">
+                                <a href="{{ route('services') }}" class="elementor-item">Services</a>
+                                <ul class="sub-menu elementor-nav-menu--dropdown">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-217">
+                                        <a href="{{ route('services') }}" class="elementor-sub-item">All Services</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-207">
+                                        <a href="{{ route('single-service') }}" class="elementor-sub-item">Single Service</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-213">
+                                        <a href="{{ route('pricing') }}" class="elementor-sub-item">Pricing</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2213">
+                                        <a href="{{ route('service-warranty') }}" class="elementor-sub-item">Service Warranty</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-208">
+                                <a href="{{ route('portfolio') }}" class="elementor-item">Projects</a>
+                                <ul class="sub-menu elementor-nav-menu--dropdown">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2188">
+                                        <a href="{{ route('before-after') }}" class="elementor-sub-item">Before &amp; After</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2189">
+                                        <a href="{{ route('portfolio') }}" class="elementor-sub-item">Portfolio</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2190">
+                                <a href="{{ route('service-areas') }}" class="elementor-item">Service Areas</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-210">
+                                <a class="elementor-item">About</a>
+                                <ul class="sub-menu elementor-nav-menu--dropdown">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-236">
+                                        <a href="{{ route('about') }}" class="elementor-sub-item">About Us</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-211">
+                                        <a href="{{ route('our-team') }}" class="elementor-sub-item">Our Team</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2397">
+                                        <a href="{{ route('our-clients') }}" class="elementor-sub-item">Our Clients</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-212">
+                                        <a href="{{ route('testimonials') }}" class="elementor-sub-item">Testimonials</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-215">
+                                        <a href="{{ route('faqs') }}" class="elementor-sub-item">FAQs</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-204">
+                                <a href="{{ route('blog') }}" class="elementor-item">Blog</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-216">
+                                <a href="{{ route('contact') }}" class="elementor-item">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+                        <i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i>
+                        <i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>
+                        <span class="elementor-screen-only">Menu</span>
+                    </div>
+                    <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+                        <!-- Mobile menu items here -->
+                    </nav>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-991214b elementor-align-right elementor-widget__width-initial elementor-mobile-align-justify elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="991214b" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomIn&quot;}" data-widget_type="button.default">
+                <div class="elementor-widget-container">
+                    <div class="elementor-button-wrapper">
+                        <a class="elementor-button elementor-button-link elementor-size-sm" href="tel:+1234567890">
+                            <span class="elementor-button-content-wrapper">
+                                <span class="elementor-button-icon elementor-align-icon-left">
+                                    <i aria-hidden="true" class="fas fa-phone"></i>
+                                </span>
+                                <span class="elementor-button-text">(123) 456 7890</span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</header>
+</div>
 
 <style>
 /* Elementor-style header CSS */

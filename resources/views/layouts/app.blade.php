@@ -30,16 +30,16 @@
         };
     </script>
 
-    <!-- WordPress/Elementor CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Paint Splatter Theme CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marcellus%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CInter%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="{{ asset('wp-content/plugins/elementor/assets/css/frontend-lite.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('wp-content/plugins/elementor/assets/css/post-5.css') }}">
-    <link rel="stylesheet" href="{{ asset('wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('wp-content/uploads/elementor/css/post-5.css') }}">
-    <link rel="stylesheet" href="{{ asset('wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('wp-content/uploads/elementor/css/global.css') }}">
-    <link rel="stylesheet" href="{{ asset('wp-content/uploads/elementor/css/post-200.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/elementor-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/elementor-frontend.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/swiper.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/elementor-animations.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/home-page.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/widget-icon-box.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     
     @stack('styles')
@@ -56,11 +56,9 @@
     <!-- WordPress-style Footer -->
     @include('partials.wp-footer')
     
-    <!-- WordPress Scripts -->
-    <script src="{{ asset('wp-includes/js/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('wp-includes/js/jquery/jquery-migrate.min.js') }}"></script>
-    <script src="{{ asset('wp-content/plugins/elementor/assets/lib/swiper/js/swiper.min.js') }}"></script>
-    <script src="{{ asset('js/elementor-slider.js') }}"></script>
+    <!-- Paint Splatter Theme Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="{{ asset('assets/js/elementor-frontend.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
     
     @stack('scripts')

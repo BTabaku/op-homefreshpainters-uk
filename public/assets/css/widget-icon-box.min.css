@@ -1,0 +1,92 @@
+/* Elementor Icon Box Widget CSS */
+.elementor-widget-icon-box .elementor-icon-box-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.elementor-widget-icon-box.elementor-position-left .elementor-icon-box-wrapper,
+.elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper {
+    flex-direction: row;
+    align-items: center;
+}
+
+.elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper {
+    text-align: right;
+}
+
+.elementor-widget-icon-box.elementor-position-left .elementor-icon-box-wrapper {
+    text-align: left;
+}
+
+.elementor-icon-box-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon,
+.elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon {
+    margin-bottom: 0;
+    margin-right: 15px;
+}
+
+.elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.elementor-icon-box-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.elementor-icon-box-description {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.elementor-icon-box-content {
+    flex: 1;
+}
+
+.elementor-view-stacked .elementor-icon {
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.elementor-view-framed .elementor-icon {
+    border: 2px solid #f4f4f4;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+}
+
+.elementor-icon i {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-wrapper,
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .elementor-widget-icon-box.elementor-position-left .elementor-icon-box-icon,
+    .elementor-widget-icon-box.elementor-position-right .elementor-icon-box-icon {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
